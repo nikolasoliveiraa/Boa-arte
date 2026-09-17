@@ -43,17 +43,18 @@
   const lightboxImage = document.getElementById('lightboxImage');
   const closeBtn = document.getElementById('lightboxClose');
   const imagePath = function (collection, fileName) {
-    return 'Assets/Images/' + collection.name + '/' + encodeURIComponent(fileName);
+    const prefix = document.body.dataset.collection ? '../' : '';
+    return prefix + 'assets/images/' + collection.slug + '/' + encodeURIComponent(fileName);
   };
 
   function renderCollections() {
     collectionTitle.textContent = 'Coleções';
     collectionBack.hidden = true;
-    collectionBack.href = './Index.html#colecao';
+    collectionBack.href = 'index.html#colecao';
     collectionGrid.className = 'collection-grid';
     collectionGrid.innerHTML = collections.map(function (collection) {
       const cover = imagePath(collection, collection.images[0]);
-      return '<a class="collection-card" href="' + collection.name + '.html">' +
+      return '<a class="collection-card" href="pages/' + collection.slug + '.html">' +
         '<div class="collection-cover"><img src="' + cover + '" alt="Capa da coleção ' + collection.name + '"></div>' +
         '<div class="collection-card-info"><span class="collection-number">' + String(collection.images.length).padStart(2, '0') + ' obras</span>' +
         '<h3>' + collection.name + '</h3><p>' + collection.description + '</p><span class="collection-link">Ver coleção →</span></div>' +
@@ -64,7 +65,7 @@
   function renderCollection(collection) {
     collectionTitle.textContent = collection.name;
     collectionBack.hidden = false;
-    collectionBack.href = document.body.dataset.collection ? './Index.html#colecao' : '#colecao';
+    collectionBack.href = document.body.dataset.collection ? '../index.html#colecao' : '#colecao';
     collectionGrid.className = 'gallery';
     collectionGrid.innerHTML = collection.images.map(function (fileName, index) {
       const src = imagePath(collection, fileName);
