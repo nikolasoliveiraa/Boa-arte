@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Boa Arte — Coleção Arte Contemporânea</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&amp;family=Playfair+Display:wght@500;600&amp;display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="Style.css">
+<script src="script.js" defer></script>
+</head>
+
+<body class="home">
+
+<header>
+<div class="nav">
+<div class="logo">BOA ARTE</div>
+<nav>
+<a href="#colecao">Coleção</a>
+<a href="#precos">Preços</a>
+<a href="#pagamento">Pagamento</a>
+</nav>
+</div>
+</header>
+
+<main>
+<section class="hero">
+<div class="hero-title"><h1>Coleção Arte Contemporânea</h1></div>
+<div class="hero-description"><p>Uma seleção de obras com linhas, formas, paisagens e composições que unem leveza, personalidade e sofisticação para transformar o ambiente.</p></div>
+</section>
+
+<section class="trust-strip" aria-label="Diferenciais Boa Arte">
+  <div class="trust-inner">
+    <div><strong>Arte exclusiva</strong><span>Escolha a imagem que combina com seu espaço</span></div>
+    <div><strong>Personalização</strong><span>Produção pensada para o seu ambiente</span></div>
+    <div><strong>Pagamento fácil</strong><span>Pix ou cartão pelo link de pagamento</span></div>
+  </div>
+</section>
+
+<section class="collection" id="colecao">
+  <div class="section-head">
+    <div>
+      <h2 id="collectionTitle">Coleções</h2>
+    </div>
+    <a class="collection-back" id="collectionBack" href="#colecao" hidden>← Todas as coleções</a>
+  </div>
+  <div class="collection-grid" id="collectionGrid" aria-live="polite"></div>
+</section>
+
+<section class="prices" id="precos">
+<h2>Medidas &amp; valores</h2>
+<p class="sub">Escolha o tamanho que melhor combina com o seu espaço.</p>
+<div class="price-box">
+    <div class="price-row"><span>21 × 30 cm</span><span>R$ 89,90</span></div>
+    <div class="price-row"><span>30 × 40 cm</span><span>R$ 129,90</span></div>
+    <div class="price-row"><span>40 × 60 cm</span><span>R$ 189,90</span></div>
+    <div class="price-row highlight"><span>50 × 70 cm <small class="badge">Mais escolhido</small></span><span>R$ 279,90</span></div>
+    <div class="price-row"><span>60 × 90 cm</span><span>R$ 359,90</span></div>
+  </div>
+</section>
+
+<section id="pagamento" class="payment-section">
+  <div class="section-inner">
+    <h2>Formas de pagamento</h2>
+    <p class="payment-intro">Escolha sua arte e fale conosco pelo WhatsApp. Enviaremos o link seguro para pagamento com cartão.</p>
+
+    <div class="payment-grid">
+      <div class="payment-card">
+        <div class="payment-icon">PIX</div>
+        <h3>Pix</h3>
+        <p><strong>Enviado por WhatsApp</strong></p>
+      </div>
+
+      <div class="payment-card">
+        <div class="payment-icon">💳</div>
+        <h3>Cartão de crédito</h3>
+        <p>Receba seu link de pagamento e escolha as parcelas disponíveis.</p>
+      </div>
+
+      <div class="payment-card">
+        <div class="payment-icon">▣</div>
+        <h3>Cartão de débito</h3>
+        <p>Consulte a disponibilidade no momento da compra.</p>
+      </div>
+    </div>
+
+    <a class="payment-button" href="https://wa.me/5511963658837?text=Olá!%20Quero%20comprar%20um%20quadro%20da%20Boa%20Arte.%20Gostaria%20de%20receber%20o%20link%20de%20pagamento%20com%20cartão." target="_blank" rel="noopener">
+      Comprar pelo WhatsApp
+    </a>
+    <p class="payment-note">Atendimento e envio do link de pagamento pelo WhatsApp.</p>
+  </div>
+</section>
+
+</main>
+<footer>
+<span>© Boa Arte</span>
+<span>Arte para viver.</span>
+</footer>
+<a class="whatsapp-float" href="https://wa.me/5511963658837?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20as%20artes%20da%20Boa%20Arte." target="_blank" rel="noopener" aria-label="Falar com a Boa Arte pelo WhatsApp">
+  <span aria-hidden="true"><svg viewBox="3 3 18 18" focusable="false"><path d="M12 3.4a8.6 8.6 0 0 0-7.3 13.1L3.5 20.6l4.2-1.1A8.6 8.6 0 1 0 12 3.4Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M8.5 8.2c.2-.3.4-.3.7-.3h.5c.2 0 .4.1.5.4l.7 1.5c.1.2.1.4-.1.6l-.5.6c.6 1.1 1.5 2 2.6 2.6l.6-.5c.2-.2.4-.2.6-.1l1.5.7c.3.1.4.3.4.5v.5c0 .3 0 .5-.3.7-.4.3-1 .5-1.5.4-2.1-.5-4.8-3.2-5.3-5.3-.1-.5.1-1.1.4-1.5Z" fill="currentColor"/></svg></span> WhatsApp
+</a>
+
+<div class="image-lightbox" id="imageLightbox" aria-hidden="true">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Fechar imagem">&times;</button>
+  <img id="lightboxImage" src="" alt="Obra ampliada">
+</div>
+
+</body>
+</html>
