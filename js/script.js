@@ -8,7 +8,18 @@
         'WhatsApp Image 2026-09-16 at 13.50.27 (1).jpeg',
         'WhatsApp Image 2026-09-16 at 13.50.27 (2).jpeg',
         'WhatsApp Image 2026-09-16 at 13.50.27.jpeg',
-        'WhatsApp Image 2026-09-16 at 13.50.28.jpeg'
+        'WhatsApp Image 2026-09-16 at 13.50.28.jpeg',
+        'WhatsApp Image 2026-09-25 at 19.06.52 (1).jpeg',
+        'WhatsApp Image 2026-09-25 at 19.06.52 (2).jpeg',
+        'WhatsApp Image 2026-09-25 at 19.06.52 (3).jpeg',
+        'WhatsApp Image 2026-09-25 at 19.06.52 (4).jpeg',
+        'WhatsApp Image 2026-09-25 at 19.06.52.jpeg',
+        'WhatsApp Image 2026-09-25 at 19.06.53 (1).jpeg',
+        'WhatsApp Image 2026-09-25 at 19.06.53 (2).jpeg',
+        'WhatsApp Image 2026-09-25 at 19.06.53 (3).jpeg',
+        'WhatsApp Image 2026-09-25 at 19.06.53 (4).jpeg',
+        'WhatsApp Image 2026-09-25 at 19.06.53 (5).jpeg',
+        'WhatsApp Image 2026-09-25 at 19.06.53.jpeg'
       ]
     },
     {
@@ -20,7 +31,17 @@
         'WhatsApp Image 2026-09-16 at 13.50.12 (2).jpeg',
         'WhatsApp Image 2026-09-16 at 13.50.12 (3).jpeg',
         'WhatsApp Image 2026-09-16 at 13.50.12.jpeg',
-        'WhatsApp Image 2026-09-16 at 13.50.13.jpeg'
+        'WhatsApp Image 2026-09-16 at 13.50.13.jpeg',
+        'WhatsApp Image 2026-09-25 at 19.02.07.jpeg',
+        'WhatsApp Image 2026-09-25 at 19.02.08 (1).jpeg',
+        'WhatsApp Image 2026-09-25 at 19.02.08 (2).jpeg',
+        'WhatsApp Image 2026-09-25 at 19.02.08 (3).jpeg',
+        'WhatsApp Image 2026-09-25 at 19.02.08 (4).jpeg',
+        'WhatsApp Image 2026-09-25 at 19.02.08.jpeg',
+        'WhatsApp Image 2026-09-25 at 19.02.09 (1).jpeg',
+        'WhatsApp Image 2026-09-25 at 19.02.09 (2).jpeg',
+        'WhatsApp Image 2026-09-25 at 19.02.09 (3).jpeg',
+        'WhatsApp Image 2026-09-25 at 19.02.09.jpeg'
       ]
     },
     {
@@ -31,7 +52,17 @@
         'WhatsApp Image 2026-09-16 at 13.50.46 (1).jpeg',
         'WhatsApp Image 2026-09-16 at 13.50.46 (2).jpeg',
         'WhatsApp Image 2026-09-16 at 13.50.46.jpeg',
-        'WhatsApp Image 2026-09-16 at 13.50.47.jpeg'
+        'WhatsApp Image 2026-09-16 at 13.50.47.jpeg',
+        'WhatsApp Image 2026-09-25 at 19.01.47.jpeg',
+        'WhatsApp Image 2026-09-25 at 19.01.48 (1).jpeg',
+        'WhatsApp Image 2026-09-25 at 19.01.48 (2).jpeg',
+        'WhatsApp Image 2026-09-25 at 19.01.48 (3).jpeg',
+        'WhatsApp Image 2026-09-25 at 19.01.48 (4).jpeg',
+        'WhatsApp Image 2026-09-25 at 19.01.48 (5).jpeg',
+        'WhatsApp Image 2026-09-25 at 19.01.48.jpeg',
+        'WhatsApp Image 2026-09-25 at 19.01.49 (1).jpeg',
+        'WhatsApp Image 2026-09-25 at 19.01.49 (2).jpeg',
+        'WhatsApp Image 2026-09-25 at 19.01.49.jpeg'
       ]
     }
   ];
