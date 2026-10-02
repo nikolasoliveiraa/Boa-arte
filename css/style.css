@@ -733,3 +733,120 @@ header .nav nav{
   footer{padding-left:16px;padding-right:16px}
 }
 body.home header{backdrop-filter:none}
+
+.price-tables{
+  display:grid;
+  gap:16px;
+}
+.price-table{
+  width:100%;
+  border:1px solid var(--ba-line);
+  border-collapse:collapse;
+  background:var(--ba-paper);
+  font-size:14px;
+}
+.price-table caption{
+  padding:17px 20px;
+  background:#e9e6df;
+  color:var(--ba-ink);
+  font-family:"Playfair Display",serif;
+  font-size:20px;
+  font-weight:500;
+  text-align:left;
+}
+.price-table th,
+.price-table td{
+  padding:12px 20px;
+  border-bottom:1px solid var(--ba-line);
+}
+.price-table thead th{
+  color:var(--ba-muted);
+  font-size:11px;
+  font-weight:600;
+  letter-spacing:.08em;
+  text-align:left;
+  text-transform:uppercase;
+}
+.price-table tbody th{
+  font-weight:500;
+  text-align:left;
+}
+.price-table td{
+  font-weight:600;
+  text-align:right;
+}
+.price-table tbody tr:last-child th,
+.price-table tbody tr:last-child td{border-bottom:0}
+.price-more{
+  display:inline-block;
+  margin-top:22px;
+  border-bottom:1px solid currentColor;
+  font-size:13px;
+  font-weight:600;
+}
+.values-intro{
+  max-width:1180px;
+  margin:0 auto;
+  padding:74px 28px 20px;
+}
+.values-kicker{
+  margin:0 0 12px;
+  color:var(--ba-accent);
+  font-size:11px;
+  font-weight:700;
+  letter-spacing:.12em;
+}
+.values-intro h1{
+  margin:0 0 12px;
+  font-family:"Playfair Display",serif;
+  font-size:clamp(42px,6vw,68px);
+  font-weight:500;
+  line-height:1.05;
+}
+.values-intro>p:last-child{
+  margin:0;
+  color:var(--ba-muted);
+}
+.values-prices{padding-top:30px}
+.values-contact{
+  margin:24px 0 0;
+  color:var(--ba-muted);
+  font-size:13px;
+}
+.values-contact a{
+  color:var(--ba-ink);
+  font-weight:600;
+  text-decoration:underline;
+  text-underline-offset:3px;
+}
+@media(max-width:720px){
+  .nav{
+    flex-direction:column;
+    align-items:stretch;
+    gap:10px;
+    padding:14px 20px;
+  }
+  .nav .logo{align-self:flex-start}
+  header .nav nav{
+    display:flex;
+    width:100%;
+    min-height:0;
+    justify-content:space-between;
+    gap:10px;
+    margin:0;
+    padding:0;
+  }
+  header .nav nav a{font-size:11px}
+  .values-intro{padding:54px 20px 12px}
+  .values-prices{padding:26px 20px 58px}
+  .price-table caption{padding:14px 15px;font-size:18px}
+  .price-table th,.price-table td{padding:11px 15px}
+}
+@media(max-width:360px){
+  .nav{padding:12px 14px}
+  header .nav nav{gap:6px}
+  header .nav nav a{font-size:10px}
+  .values-intro,.values-prices{padding-left:16px;padding-right:16px}
+  .price-table{font-size:13px}
+  .price-table caption{font-size:16px}
+}
